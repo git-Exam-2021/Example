@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!--
+  ~ Copyright (c) 2021. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  ~ Morbi non lorem porttitor neque feugiat blandit. Ut vitae ipsum eget quam lacinia accumsan. 
+  ~ Etiam sed turpis ac ipsum condimentum fringilla. Maecenas magna. 
+  ~ Proin dapibus sapien vel ante. Aliquam erat volutpat. Pellentesque sagittis ligula eget metus. 
+  ~ Vestibulum commodo. Ut rhoncus gravida arcu. 
+  -->
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.itemAddController">
+   <children>
+      <AnchorPane fx:id="root" prefHeight="406.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="txtItemcode" layoutX="36.0" layoutY="57.0" prefHeight="25.0" prefWidth="198.0" promptText="itemcode" />
+            <TextField fx:id="txtName" layoutX="36.0" layoutY="95.0" prefHeight="25.0" prefWidth="198.0" promptText="item name" />
+            <TextField fx:id="txtDescription" layoutX="36.0" layoutY="136.0" prefHeight="25.0" prefWidth="198.0" promptText="description" />
+            <TextField fx:id="txtPrice" layoutX="36.0" layoutY="178.0" prefHeight="25.0" prefWidth="198.0" promptText="price" />
+            <Button fx:id="btnItemAdd" layoutX="57.0" layoutY="248.0" mnemonicParsing="false" onAction="#btnItemAddOnAction" prefHeight="25.0" prefWidth="164.0" text="Button" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
